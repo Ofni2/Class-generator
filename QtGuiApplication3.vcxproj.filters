@@ -40,10 +40,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\QtGuiApplication2\main.cpp">
+    <CustomBuild Include="fenetre.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FenPrincipale.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FenCodeGenere.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\QtGuiApplication2\FenPrincipale.cpp">
+    <ClCompile Include="FenPrincipale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_FenPrincipale.cpp">
@@ -52,22 +63,8 @@
     <ClCompile Include="GeneratedFiles\Release\moc_FenPrincipale.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="FenCodeGenere.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="fenetre.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="..\QtGuiApplication2\FenPrincipale.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_fenetre.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
     <ClInclude Include="FenCodeGenere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
